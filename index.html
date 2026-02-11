@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio — Grafik komputerowy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Jan Kowalski</a>
+      <nav class="nav">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Usługi</a>
+        <a href="#about">O mnie</a>
+        <a href="#contact" class="cta">Kontakt</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Otwórz menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Tworzę grafiki, które opowiadają historię Twojej marki</h1>
+          <p class="lead">Logo, identyfikacja wizualna, ilustracje i projekty do druku. Współpracuję z startupami, agencjami i klientami indywidualnymi.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Zamów wycenę</a>
+            <a href="#portfolio" class="btn btn-secondary">Zobacz portfolio</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=1200&q=80&auto=format&fit=crop" alt="Przykładowe projekty graficzne">
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="container section">
+      <h2>Portfolio</h2>
+      <p class="section-lead">Wybrane projekty — branding, plakaty, ilustracje.</p>
+      <div class="grid">
+        <figure class="card"><img src="https://images.unsplash.com/photo-1503602642458-232111445657?w=800&q=60&auto=format&fit=crop" alt="Projekt 1"><figcaption>Branding dla kawiarni</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&q=60&auto=format&fit=crop" alt="Projekt 2"><figcaption>Plakat wydarzenia</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=60&auto=format&fit=crop" alt="Projekt 3"><figcaption>Ilustracja cyfrowa</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1520975683895-2d25f42e0d4a?w=800&q=60&auto=format&fit=crop" alt="Projekt 4"><figcaption>Projekt etykiety</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="services" class="container section">
+      <h2>Usługi</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Branding</h3>
+          <p>Logo, księga znaku, system identyfikacji wizualnej.</p>
+        </div>
+        <div class="service">
+          <h3>Druk & DTP</h3>
+          <p>Projekty do druku: plakaty, wizytówki, ulotki.</p>
+        </div>
+        <div class="service">
+          <h3>Ilustracja</h3>
+          <p>Ilustracje cyfrowe i wektorowe na potrzeby kampanii i wydruków.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section about">
+      <div class="about-grid">
+        <div>
+          <h2>O mnie</h2>
+          <p>Jestem grafikiem komputerowym z 6-letnim doświadczeniem w tworzeniu brandingu i materiałów marketingowych. Pracuję zdalnie i stacjonarnie — realizuję projekty od koncepcji po pliki produkcyjne.</p>
+          <ul>
+            <li>Adobe Illustrator, Photoshop</li>
+            <li>Druk offsetowy i cyfrowy</li>
+            <li>Współpraca z agencjami i klientami B2B</li>
+          </ul>
+        </div>
+        <div class="about-photo" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1000&q=80&auto=format&fit=crop" alt="Zdjęcie grafika">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h2>Kontakt</h2>
+      <p>Masz pomysł? Napisz lub zamów wycenę.</p>
+      <form class="contact-form" action="mailto:example@example.com" method="post" enctype="text/plain">
+        <label>Imię i nazwisko<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Wiadomość<textarea name="message" rows="6" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Jan Kowalski — Grafik komputerowy</p>
+      <nav class="social">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Behance">Behance</a>
+        <a href="#" aria-label="LinkedIn">LI</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
